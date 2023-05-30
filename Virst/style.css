@@ -1,0 +1,629 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  background-color: white;
+  width: 1340px;
+  height: 4754px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+.header ul {
+  list-style-type: none;
+  flex-direction: row;
+  margin-left: 100px;
+}
+.header ul li {
+  display: flex;
+  flex-direction: row;
+}
+.header img {
+  margin-left: 160px;
+  padding-right: 170px;
+  margin-top: 50px;
+}
+
+.nav {
+  margin-top: 66px;
+  display: flex;
+  flex-direction: row;
+}
+.nav li {
+  padding-right: 40px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.nav-rigth {
+  margin-top: 58px;
+  display: flex;
+  flex-direction: row;
+}
+.nav-rigth .searchSvg {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.nav-rigth .cardSvg {
+  margin-right: 32px;
+}
+.nav-rigth button {
+  background-color: #09a66d;
+  width: 160px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-right: 100px;
+}
+.nav-rigth button div {
+  position: relative;
+  padding: 10 23 10 23;
+}
+
+.lable {
+  position: absolute;
+  margin-top: 43px;
+  width: 1519px;
+  height: 850px;
+  background-color: #f3fbf8;
+}
+.lable .floore {
+  position: absolute;
+  background-image: url("./utils/fresh-melientha-suavis-pierre-leaves-white-surface_51524-12145-removebg-preview 1.png");
+  width: 612px;
+  height: 408px;
+  margin-top: -40px;
+}
+.lable .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 93px;
+  justify-content: center;
+}
+.lable .texts .text {
+  position: relative;
+  font-family: "Rosario", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+}
+.lable .texts p {
+  margin-top: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  width: 637px;
+  height: 90px;
+  text-align: center;
+}
+.lable .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 40px;
+}
+.lable .svg {
+  margin-left: 20px;
+  width: 64px;
+  height: 64px;
+  z-index: 1;
+}
+.lable .svg svg {
+  background-color: #09a66d;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 100%;
+}
+.lable .image {
+  display: flex;
+  flex-direction: row;
+}
+.lable .image img {
+  margin-top: -20px;
+  margin-left: 120px;
+}
+.lable .image ul {
+  margin-left: 100px;
+  margin-right: 100px;
+  list-style-type: none;
+  margin-top: -15px;
+}
+.lable .image ul li {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 116px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+.lable .image ul li img {
+  padding-right: 24px;
+  margin-left: 30px;
+}
+.lable .image ul li div {
+  font-family: "DM Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  padding-right: 46px;
+}
+.lable .image ul li div p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.label_2 {
+  display: flex;
+  flex-direction: row;
+}
+.label_2 .label2 {
+  margin-top: 140px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Rosario", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  z-index: 1;
+}
+.label_2 .label2 p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "DM Sans", sans-serif;
+  width: 637px;
+  height: 90px;
+  font-weight: 400;
+}
+.label_2 .label2 ul {
+  margin-top: 57px;
+  margin-left: 159px;
+  list-style-type: none;
+}
+.label_2 .label2 ul li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 61px;
+}
+.label_2 .label2 ul li .imgRad {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-color: #f3fbf8;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 24px;
+}
+.label_2 .label2 ul li .textLabel2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+.label_2 .label2 ul li .textLabel2 p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 277px;
+  height: 40px;
+}
+.label_2 .label2 .area {
+  margin-left: -59px;
+  width: 500px;
+  height: 160px;
+  background-color: #f3fbf8;
+  align-items: center;
+}
+.label_2 .label2 .area .imgTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  margin-left: 59px;
+}
+.label_2 .label2 svg {
+  margin-top: -10px;
+  margin-left: 341px;
+}
+
+.label3 {
+  margin-left: -240px;
+  margin-top: -20px;
+}
+.label3 .elipse {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -100px;
+}
+.label3 .elipse .rec366 {
+  margin-top: -420px;
+}
+.label3 .elipse .rec3 {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 130px;
+}
+.label3 .elipse .man {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -70px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 146px;
+  width: 1519px;
+  height: 832px;
+  background-color: rgba(9, 166, 109, 0.05);
+}
+.main .rectangle {
+  width: 600px;
+  height: 600px;
+  background-color: rgba(9, 166, 108, 0.158);
+  margin-left: 100px;
+  margin-top: 89px;
+  overflow: hidden;
+}
+.main .rectangle .plit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  background-color: #ffffff;
+  margin-top: 60px;
+  margin-left: 84px;
+  transform: rotate(30deg);
+  box-shadow: 0px 5px 21px 11px rgba(20, 194, 35, 0.2);
+}
+.main .rectangle .plit img {
+  transform: rotate(-30deg);
+}
+.main .rectangle .pli2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 207.96px;
+  height: 207.96px;
+  background-color: #ffffff;
+  transform: rotate(30deg);
+  box-shadow: 0px 5px 21px 11px rgba(20, 194, 35, 0.2);
+}
+.main .rectangle .pli2 img {
+  transform: rotate(-30deg);
+}
+.main .rectangle .plit3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background: #ffffff;
+  transform: rotate(30deg);
+  margin-top: -470px;
+  margin-left: 410px;
+}
+.main .rectangle .plit3 img {
+  transform: rotate(-30deg);
+  margin-left: -18px;
+}
+.main .rectangle .plit4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 269.71px;
+  height: 269.71px;
+  background: #ffffff;
+  transform: rotate(-150deg);
+  margin-left: 280px;
+  box-shadow: -5px -5px 20px 1px rgba(20, 194, 35, 0.6);
+}
+.main .rectangle .plit4 img {
+  transform: rotate(150deg);
+}
+.main .textMain {
+  margin-top: 118px;
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 556.98px;
+  height: 180px;
+}
+.main .textMain p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 574.18px;
+  height: 90px;
+}
+.main .textMain .button_2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 50px;
+  margin-left: -370px;
+}
+.main .textMain img {
+  margin-left: 200px;
+  margin-top: -110px;
+}
+
+.lema {
+  display: flex;
+  flex-direction: row;
+}
+.lema h1 {
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  width: 640px;
+  height: 180px;
+  margin-top: 96px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.lema .lemText {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 586.26px;
+  height: 180px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+.lema .hromoy {
+  display: flex;
+  flex-direction: row;
+}
+.lema .hromoy p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  width: 203px;
+  height: 36px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.lema .hromoy ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: 100px;
+}
+.lema .hromoy ul li {
+  margin-left: 10px;
+}
+.lema .strel {
+  display: flex;
+  flex-direction: row;
+  margin-top: 45px;
+}
+.lema .strel .strel_m {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  left: 427.4px;
+  border: 1px solid #cccccc;
+  border-radius: 100%;
+  margin-right: 26px;
+  margin-left: 117px;
+}
+.lema .strel .stel_bol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background: #09a66d;
+  border-radius: 100%;
+}
+.lema .bohemian {
+  margin-top: 192px;
+  margin-left: 180px;
+}
+.lema .peoples {
+  display: flex;
+  flex-direction: column;
+  margin-top: -100px;
+  margin-left: -40px;
+  width: 220px;
+  height: 80px;
+  border-radius: 12px;
+  background-color: rgb(245, 245, 245);
+}
+.lema .peoples ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 11px;
+  margin-left: 21px;
+}
+.lema .peoples ul li {
+  margin-left: 6px;
+}
+.lema .peoples .avatarUl {
+  margin-left: 21px;
+  margin-top: 11px;
+}
+.lema .peoples .avatarUl li {
+  margin-left: -10px;
+}
+.lema .peoples .avatarUl .plusic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #f3fbf8;
+  border-radius: 100%;
+}
+
+.phone {
+  margin-left: 200px;
+  margin-top: 307px;
+  display: flex;
+  flex-direction: row;
+}
+.phone img {
+  position: absolute;
+}
+.phone .iphone {
+  margin-left: 26px;
+  margin-top: -30px;
+}
+.phone .iphoneText {
+  margin-left: 408px;
+}
+.phone .iphoneText .dowApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  width: 170px;
+  height: 40px;
+  background: #f3fbf8;
+  border-radius: 50px;
+  margin-bottom: 16px;
+}
+.phone .iphoneText h1 {
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  width: 662.63px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+.phone .iphoneText p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 574.18px;
+  height: 90px;
+  margin-bottom: 50px;
+}
+.phone .eng .engGoogle {
+  margin-left: 128px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 435px;
+  margin-top: 4319px;
+  background: #fcfefd;
+}
+footer .firstDiv img {
+  margin-left: 100px;
+  margin-top: 66px;
+  margin-bottom: 29px;
+}
+footer .firstDiv p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 345.36px;
+  height: 150px;
+  margin-left: 100px;
+}
+footer .nameUl {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #222222;
+  margin-bottom: 40px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer .liUl {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 24px;
+}
+footer .secondDiv {
+  margin-top: 105px;
+  margin-left: 157px;
+}
+footer .threeDiv {
+  margin-top: 105px;
+  margin-left: 142px;
+}
+footer .foDiv {
+  margin-top: 105px;
+  margin-left: 142px;
+}
+footer .iconUl {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+footer .iconUl li {
+  margin-right: 56px;
+}/*# sourceMappingURL=style.css.map */

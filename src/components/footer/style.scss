@@ -1,0 +1,68 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 435px;
+  margin-top: 4319px;
+  background: #fcfefd;
+
+  .firstDiv {
+    img {
+      margin-left: 100px;
+      margin-top: 66px;
+      margin-bottom: 29px;
+    }
+    p {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      width: 345.36px;
+      height: 150px;
+      margin-left: 100px;
+    }
+  }
+  .nameUl {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
+    margin-bottom: 40px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .liUl {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 24px;
+  }
+  .secondDiv {
+    margin-top: 105px;
+    margin-left: 157px;
+  }
+  .threeDiv {
+    margin-top: 105px;
+    margin-left: 142px;
+  }
+  .foDiv {
+    margin-top: 105px;
+    margin-left: 142px;
+  }
+
+  .iconUl {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+    li {
+      margin-right: 56px;
+    }
+  }
+}

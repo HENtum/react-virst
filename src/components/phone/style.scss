@@ -1,0 +1,59 @@
+.phone {
+  margin-left: 200px;
+  margin-top: 307px;
+  display: flex;
+  flex-direction: row;
+  img {
+    position: absolute;
+  }
+
+  .iphone {
+    margin-left: 26px;
+    margin-top: -30px;
+  }
+
+  .iphoneText {
+    margin-left: 408px;
+    .dowApp {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 18px;
+      width: 170px;
+      height: 40px;
+      background: #f3fbf8;
+      border-radius: 50px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-family: "Rosario";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 70px;
+      line-height: 90px;
+      width: 662.63px;
+      height: 180px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      width: 574.18px;
+      height: 90px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .eng {
+    .engGoogle {
+      margin-left: 128px;
+    }
+  }
+}

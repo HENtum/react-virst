@@ -1,0 +1,128 @@
+.floore {
+  position: absolute;
+  background-image: url("../../../public/utils/fresh-melientha-suavis-pierre-leaves-white-surface_51524-12145-removebg-preview\ 1.png");
+  width: 612px;
+  height: 408px;
+  margin-top: -40px;
+
+  @media (max-width: 360px) {
+    width: 20%;
+  }
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 93px;
+  justify-content: center;
+
+  .text {
+    position: relative;
+    font-family: "Rosario", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 90px;
+
+    @media (max-width: 290px) {
+      width: 2vh;
+      margin-left: -50%;
+    }
+  }
+
+  p {
+    margin-top: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 637px;
+    height: 90px;
+    text-align: center;
+
+    @media (max-width: 290px) {
+      width: 400px;
+      height: 200px;
+      margin-left: -30%;
+    }
+  }
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 40px;
+
+  @media (max-width: 290px) {
+    margin-left: -30%;
+  }
+}
+.svg {
+  margin-left: 20px;
+  width: 64px;
+  height: 64px;
+  z-index: 1;
+  svg {
+    background-color: #09a66d;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 100%;
+  }
+}
+.image {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    margin-top: -20px;
+    margin-left: 120px;
+    @media (max-width: 340px) {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  ul {
+    margin-left: 100px;
+    margin-right: 100px;
+    list-style-type: none;
+    margin-top: -15px;
+
+    li {
+      display: flex;
+
+      align-items: center;
+      width: 250px;
+      height: 116px;
+      background-color: #ffffff;
+      margin-bottom: 30px;
+
+      img {
+        padding-right: 24px;
+        margin-left: 30px;
+        @media (max-width: 340px) {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      div {
+        font-family: "DM Sans", sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+        padding-right: 46px;
+        p {
+          font-family: "DM Sans", sans-serif;
+          font-size: 18px;
+          line-height: 30px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
